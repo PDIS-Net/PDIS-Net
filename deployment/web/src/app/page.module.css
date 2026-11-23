@@ -191,28 +191,6 @@
   transform: translateX(-50%);
 }
 
-.recommendation {
-  min-height: 170px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 16px 18px;
-}
-
-.recommendation h2 {
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-.recommendation p {
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-.placeholder {
-  color: var(--muted);
-}
-
 .status {
   font-size: 14px;
   color: var(--muted);

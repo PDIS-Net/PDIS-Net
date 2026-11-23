@@ -208,15 +208,6 @@ export default function Dashboard() {
               </div>
             </div>
 
-            <div className={styles.recommendation}>
-              <h2>Recommendation</h2>
-              {result ? (
-                <p>{result.recommendation}</p>
-              ) : (
-                <p className={styles.placeholder}>Upload a photo to get a recommendation.</p>
-              )}
-            </div>
-
             {status && <p className={styles.status}>{status}</p>}
             {error && <p className={styles.error}>{error}</p>}
 
